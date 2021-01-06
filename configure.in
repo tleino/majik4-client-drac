@@ -1,0 +1,37 @@
+dnl Process this file with autoconf to produce a configure script.
+AC_INIT(src/main.cpp)
+AC_CANONICAL_HOST
+AC_DEFINE_UNQUOTED(CPU_VENDOR_OS, "$host")
+AM_INIT_AUTOMAKE(majik, 0.01)
+
+dnl Checks for programs.
+AC_PROG_CXX
+AC_PROG_CPP
+AC_PROG_INSTALL
+AC_ARG_PROGRAM
+AM_SANITY_CHECK
+
+dnl Checks for libraries.
+dnl Replace `main' with a function in -lncurses:
+AC_CHECK_LIB(curses, initscr,AC_DEFINE(CURSES),AC_DEFINE(WIN32))
+
+dnl Checks for header files.
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+
+dnl Custom options
+
+RES_LIBS=
+AC_ARG_ENABLE(sound,[  --enable-sound          enable annoying sound effects [default=no]],AC_DEFINE(ENABLE_SOUND),)
+AC_ARG_ENABLE(static,[  --enable-static         link against static libraries [default=no]],RES_LIBS="-static",)
+CFLAGS="$CFLAGS $RES_LIBS"
+AC_SUBST(CFLAGS)
+
+dnl Checks for library functions.
+
+AC_OUTPUT(Makefile src/Makefile src/majik_con/Makefile src/majik_net/Makefile src/majik_wait/Makefile)
+
+if test -d "$host" ; then
+   cp -p config.h config.cache config.status Makefile $host
+fi

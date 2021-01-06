@@ -1,0 +1,25 @@
+--------------------Configuration: majik_con - Win32 Debug--------------------
+Begining build with project "C:\src\majik\majik_con\majik_con.dsp", at root.
+Active configuration is Win32 (x86) Static Library (based on Win32 (x86) Static Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /GX /Z7 /Od /I "c:\src\majik" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/majik_con.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Browser Database Maker" with flags "/nologo /o"Debug/majik_con.bsc" "
+			"Library Manager" with flags "/nologo /out:"Debug\majik_con.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP2BC.tmp" with contents </nologo /MLd /W3 /GX /Z7 /Od /I "c:\src\majik" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/majik_con.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\src\majik\majik_con\Win32Con.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSP2BC.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\majik_con.lib"  .\Debug\MCon.obj .\Debug\Win32Con.obj" 
+Compiling...
+Win32Con.cpp
+Creating library...
+Creating command line "bscmake.exe /nologo /o"Debug/majik_con.bsc"  .\Debug\MCon.sbr .\Debug\Win32Con.sbr" 
+Creating browse info file...
+
+
+
+majik_con.lib - 0 error(s), 0 warning(s)

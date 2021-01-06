@@ -1,0 +1,23 @@
+--------------------Configuration: majik_wait - Win32 Debug--------------------
+Begining build with project "C:\src\majik\majik_wait\majik_wait.dsp", at root.
+Active configuration is Win32 (x86) Static Library (based on Win32 (x86) Static Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /GX /Z7 /Od /I "c:\src\majik\majik_net" /I "c:\src\majik\majik_con" /I "c:\src\majik" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/majik_wait.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Browser Database Maker" with flags "/nologo /o"Debug/majik_wait.bsc" "
+			"Library Manager" with flags "/nologo /out:"Debug\majik_wait.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP199.tmp" with contents </nologo /MLd /W3 /GX /Z7 /Od /I "c:\src\majik\majik_net" /I "c:\src\majik\majik_con" /I "c:\src\majik" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/majik_wait.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\src\majik\majik_wait\Win32Wait.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSP199.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Debug\majik_wait.lib"  .\Debug\MWait.obj .\Debug\Win32Wait.obj" 
+Compiling...
+Win32Wait.cpp
+Creating library...
+
+
+
+majik_wait.lib - 0 error(s), 0 warning(s)

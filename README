@@ -1,0 +1,4 @@
+This is a client made by Johan Kohler <drac@netg.se> for Majik 4 project. It
+should be a bit more portable (should compile on Win32 using Visual C++) than
+the previous version and it is written in C++, it however never got finished.
+

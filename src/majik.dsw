@@ -1,0 +1,74 @@
+Microsoft Developer Studio Workspace File, Format Version 5.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "majik"=.\majik.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name majik_con
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name majik_net
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name majik_wait
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "majik_con"=.\majik_con\majik_con.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "majik_net"=.\majik_net\majik_net.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "majik_wait"=.\majik_wait\majik_wait.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
